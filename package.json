@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react-scripts": "^5.0.1", 
+    "mongoose": "^8.15.1",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "ajv": "^7.2.4"
+  },
+    "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+
+}

@@ -1,0 +1,41 @@
+.home-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+/* Horizontal Scroll Section */
+.scroll-section {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-section::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-section::-webkit-scrollbar-thumb {
+  background: var(--primary-dark);
+  border-radius: 10px;
+}
+
+.scroll-section::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.product-scroll-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  width: 250px;
+}
