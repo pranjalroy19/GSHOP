@@ -14,7 +14,7 @@ const Register = () => {
     console.log("🔴 Register button clicked");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/register", {
+      const res = await axios.post("api/auth/register", {
         username,
         email,
         password,
